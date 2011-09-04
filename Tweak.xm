@@ -76,7 +76,7 @@ static hooks* hookPtr = nil;
         [NSThread sleepForTimeInterval:1.0f];
         NSTimeInterval time = [[UIApplication sharedApplication] backgroundTimeRemaining];
         //NSLog(@"Time remaining is %f", time);
-        if(round(time) == 90.0){
+        if(floor(time) == 90.0){
             UILocalNotification *notification = [[UILocalNotification alloc] init];
             notification.alertBody = @"FlowChat only has 1:30 until it is terminated.\n Please relaunch soon";
             notification.alertAction = @"Open";
