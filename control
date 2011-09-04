@@ -1,0 +1,9 @@
+Package: com.nighthawk.flowchatmod
+Name: FlowChat Mod
+Depends: mobilesubstrate
+Version: 2.0.0
+Architecture: iphoneos-arm
+Description: A mod for Flowchat that fixes it for iOS 4, and adds many awesome new features.
+Maintainer: Nighthawk
+Author: Nighthawk
+Section: Tweaks
